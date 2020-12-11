@@ -12,7 +12,9 @@ img {
 }
 
 /* Navigation */
+/* navigation tilføjet i main.css*/
 
+/*
 header {
     background-color: white;
 }
@@ -39,6 +41,7 @@ nav a {
     display: inline-block;
     font: 1vw;
 }
+*/
 
 /*Main*/
 
@@ -164,6 +167,9 @@ p {
 
 
 /*-----footer----*/
+/* footer tilføjet i main.css*/
+
+/*
 #footer {
     height: 400px;
     width: 100%;
@@ -202,7 +208,7 @@ p {
     color: #9a9a9a
 }
 
-/*
+
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
