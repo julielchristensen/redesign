@@ -120,6 +120,22 @@ p {
     text-align: center;
 }
 
+.forsideknap {
+    background-color: #D7D7D9;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    opacity: 60%;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.forsideknap a {
+    text-decoration: none;
+    color: black;
+}
+
 /*sektion 2*/
 
 #sektion2 h2 {
@@ -128,6 +144,7 @@ p {
 
 #sektion2 {
     padding: 30px;
+    padding-bottom: 70px;
 }
 
 /*sektion 3*/
@@ -149,9 +166,9 @@ p {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #D9C9C1;
+    background-color: #D7D7D9;
     font-family: 'Montserrat';
-    font-size: 1.5rem;
+    font-size: 1rem;
     opacity: 70%;
     padding: 12px 24px;
     border: none;
