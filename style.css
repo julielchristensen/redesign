@@ -1,0 +1,268 @@
+/* Overordnet Html */
+
+section {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+p {
+    font-family: 'Assistant', sans-serif;
+    font-size: 20px;
+}
+
+h2 {
+    color: #FDD882;
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+}
+
+h4 {
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+
+}
+
+nav a {
+    font-family: 'Assistant', sans-serif;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+
+/* Navigation */
+
+.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+nav {
+    text-align: center;
+    padding: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#menuknap {
+    display: inline-block;
+    margin-top: 35px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+#menu {
+    list-style-type: none;
+    text-decoration: none;
+    transition: transform 0.3s;
+    transform-origin: top left;
+}
+
+#menu li {
+    display: inline-block;
+    font-size: 1vw;
+
+}
+
+/* footer */
+
+footer .footer {
+    margin-top: 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5vw;
+    background-color: #D9C9C1;
+}
+
+footer h4 {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+}
+
+
+/* Form */
+
+label,
+input,
+button,
+textarea,
+select {
+    display: block;
+    font-family: 'Assistant', sans-serif;
+}
+
+input {
+    width: 22rem;
+    font-size: 14px;
+    padding: 0.5rem;
+    border: solid;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+    height: 5rem;
+    resize: none;
+    border: solid;
+    border-width: 1px;
+    border-radius: 4px;
+}
+
+select {
+    width: 100%;
+    font-size: 16px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label {
+    margin-top: 1rem;
+    margin-bottom: 0.1rem;
+    font-size: 16px;
+    font-family: 'Assistant', sans-serif;
+}
+
+span {
+    font-size: 14px;
+    color: grey;
+    font-family: 'Assistant', sans-serif;
+}
+
+button {
+    margin-top: 3rem;
+    margin-left: 6rem;
+    border: 0;
+    border-radius: 4px;
+    padding: .75rem 2rem;
+    background-color: #FDD882;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+/* Media */
+
+@media (min-width:1080px) {
+
+    /*Burgermenu*/
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+
+    }
+
+    /* Om os section 1 */
+
+    #om_os .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 5rem;
+
+    }
+
+    #om_os .section_wrapper p {
+        margin-top: 7rem;
+    }
+
+    #om_os .section_wrapper h2 {
+        position: absolute;
+        margin-top: 1rem;
+
+    }
+
+    #om_os img {
+
+        width: 700px;
+        height: 500px;
+    }
+
+
+    /* Blomster Abonnement section */
+
+    #blomster_abonnement .section_wrapper {
+
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+
+
+
+    }
+
+    #blomster_abonnement .section_wrapper p {
+        margin-top: 12rem;
+    }
+
+    #blomster_abonnement .section_wrapper h2 {
+        position: absolute;
+        margin-left: 28.7rem;
+        margin-top: 1rem;
+    }
+
+    #blomster_abonnement img {
+        width: 600px;
+        height: 1050px;
+    }
+
+    /* Bestil Blomster */
+
+    #bestil_blomster .section_wrapper {
+
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+
+
+    }
+
+    #bestil_blomster .section_wrapper p {
+        margin-top: 12rem;
+    }
+
+    #bestil_blomster .section_wrapper h2 {
+        position: absolute;
+        margin-left: 29rem;
+        margin-top: 1rem;
+    }
+
+    #bestil_blomster img {
+        width: 600px;
+        height: 1050px;
+    }
+
+
+    /*Tak for din bestilling */
+
+    #tak .section_wrapper {
+        margin-bottom: 10rem;
+        text-align: center;
+    }
+
+    #tak a {
+        font-family: 'Assistant', sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        color: #FDD882;
+    }
+
+}
