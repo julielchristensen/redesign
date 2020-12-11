@@ -7,7 +7,7 @@ section {
 }
 
 p {
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Montserrat';
     font-size: 20px;
 }
 
@@ -24,7 +24,7 @@ h4 {
 }
 
 nav a {
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Montserrat';
 }
 
 img {
@@ -101,7 +101,7 @@ button,
 textarea,
 select {
     display: block;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Montserrat';
 }
 
 input {
@@ -135,13 +135,13 @@ label {
     margin-top: 1rem;
     margin-bottom: 0.1rem;
     font-size: 16px;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Montserrat';
 }
 
 span {
     font-size: 14px;
     color: grey;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Montserrat';
 }
 
 button {
@@ -259,7 +259,7 @@ button {
     }
 
     #tak a {
-        font-family: 'Assistant', sans-serif;
+        font-family: 'Montserrat';
         font-size: 20px;
         text-decoration: none;
         color: #FDD882;
