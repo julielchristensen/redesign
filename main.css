@@ -1,0 +1,149 @@
+/* Overordnet Html */
+main {
+    max-width: 1080px;
+    margin: 1rem auto;
+}
+
+section {
+    width: 1080px;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+/* Skriftyper, skriftstørrelser */
+
+p {
+    font-family: 'Montserrat';
+    /*font-size: 0.8rem;*/
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+
+}
+
+h2 {
+    color: #FDD882;
+    font-family: 'Playfair Display', serif;
+}
+
+h3 {
+    color: #FDD882;
+    font-family: 'Playfair Display', serif;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
+
+}
+
+nav a {
+    font-family: 'Montserrat';
+}
+
+/* Navigation */
+
+.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+header {
+    background-color: white;
+}
+
+nav {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    font-size: 1rem;
+}
+
+#menuknap {
+    display: inline-block;
+    margin-top: 35px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#menu {
+    list-style-type: none;
+    text-decoration: none;
+    transition: transform 0.3s;
+    transform-origin: top left;
+}
+
+#menu li {
+    display: inline-block;
+    font-size: 1vw;
+
+}
+
+/* footer */
+
+#footer {
+    height: 400px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+}
+
+.footer {
+    display: inline-block;
+    color: #FDD882;
+    padding: 1px;
+    margin: 1px;
+    text-decoration: none;
+}
+
+.footer img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.footer .foelg_os img {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+}
+
+.footer p {
+    font-size: 0.8rem;
+    padding: 1px;
+    margin: 1px;
+    text-decoration: none;
+    color: #9a9a9a
+}
+
+
+/*Media*/
+
+@media (min-width:1080px) {
+
+    /*Burgermenu*/
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+
+    }
+
+}

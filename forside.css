@@ -12,6 +12,12 @@ img {
 }
 
 /* Navigation */
+/* navigation tilføjet i main.css*/
+
+/*
+header {
+    background-color: white;
+}
 
 nav {
     text-align: center;
@@ -21,7 +27,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #D7D7D9;
+    color: black;
     padding: 20px;
     font-family: 'Montserrat'
 }
@@ -35,16 +41,19 @@ nav a {
     display: inline-block;
     font: 1vw;
 }
+*/
 
 /*Main*/
 
 h1 {
+    text-align: center;
     font-family: 'Playfair Display';
     font-size: 5rem;
     color: #D7D7D9;
 }
 
 h2 {
+    color: #FDD882;
     font-family: 'Playfair Display';
 }
 
@@ -57,20 +66,7 @@ p {
     font-size: 0.8rem;
 }
 
-/*
-#sektion1 {
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: none;
-    grid-template-columns: 1fr auto 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-*/
+/* sektion 1*/
 
 #videoBG {
     position: absolute;
@@ -106,23 +102,41 @@ p {
     }
 }
 
+#sektion1 {
+    grid-template-columns: 2fr auto 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+
+}
+
 .sektiontekst {
-    display: inline-block;
     grid-column: 2/3;
     grid-row: 2/3;
     padding: 10rem;
-    text-align: center;
 }
 
-/*
 #sektion1 div {
     grid-column: 2/3;
     grid-row: 2/3;
-    padding: 4rem;
     text-align: center;
-
 }
-*/
+
+.forsideknap {
+    background-color: #D7D7D9;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    opacity: 60%;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.forsideknap a {
+    text-decoration: none;
+    color: black;
+}
+
+/*sektion 2*/
 
 #sektion2 h2 {
     text-align: center;
@@ -130,7 +144,10 @@ p {
 
 #sektion2 {
     padding: 30px;
+    padding-bottom: 70px;
 }
+
+/*sektion 3*/
 
 #sektion3 {
     display: grid;
@@ -144,15 +161,14 @@ p {
     position: relative;
 }
 
-.col .knap {
+.knap {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #D9C9C1;
-    color: black;
+    background-color: #D7D7D9;
     font-family: 'Montserrat';
-    font-size: 1.5rem;
+    font-size: 1rem;
     opacity: 70%;
     padding: 12px 24px;
     border: none;
@@ -160,8 +176,53 @@ p {
     border-radius: 5px;
 }
 
-#sektion3 h2 {
+.knap a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*-----footer----*/
+/* footer tilføjet i main.css*/
+
+/*
+#footer {
+    height: 400px;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+}
+
+.footer {
     display: inline-block;
+    color: #FDD882;
+    padding: 1px;
+    margin: 1px;
+    text-decoration: none;
+}
+
+.footer img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.footer .foelg_os img {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+}
+
+.footer p {
+    font-size: 0.8rem;
+    padding: 1px;
+    margin: 1px;
+    text-decoration: none;
+    color: #9a9a9a
 }
 
 
@@ -176,3 +237,4 @@ footer {
 #footertekst p {
     font-size: 1rem;
 }
+*/

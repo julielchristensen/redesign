@@ -1,5 +1,3 @@
-
-
 img {
     width: 100%;
     vertical-align: middle;
@@ -55,6 +53,7 @@ section {
     justify-content: center;
 
 }
+
 /*dot indikator*/
 .dot {
     flex-shrink: 0;
@@ -105,14 +104,12 @@ section {
 
 /*font styling and margins*/
 h2 {
-    font-family: Playfair Display, serif;
     font-size: 2rem;
 
     margin-bottom: 5px;
 }
 
 p {
-    font-family: 'Cormorant Garamond', serif;
     font-size: 1.2rem;
 
     margin: 15px;
