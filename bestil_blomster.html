@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta name="robots" content="noindex">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<header>
+    <nav>
+        <div id="menuknap">☰</div>
+        <ul id="menu" class="hidden">
+            <li><a href="forside.html">Forside</a></li>
+            <li><a href="produkter.html">Produkter</a></li>
+            <li><a href="bestil_blomster.html">Bestil Blomster</a></li>
+            <li><a href="blomster_abonnement.html">Blomster Abonnement</a></li>
+            <li><a href="om_os.html">Om os</a></li>
+        </ul>
+
+    </nav>
+</header>
+
+<body>
+    <main>
+        <section id="bestil_blomster">
+            <div class="section_wrapper">
+                <div class="col">
+                    <h2>Bestil Blomster <br> Til Afhentning</h2>
+                    <img src="billeder/bestilblomster.png" alt="Placeholder">
+                </div>
+                <div class="col">
+                    <p>Ønsker du at bestille en buket til afhentning hos os, skal du blot udfylde formularen herunder.
+                        <br>Vi ser frem til at modtage din bestilling!
+                    </p>
+                    <form action="tak.html" name=“bestilling” netlify>
+
+                        <!--Pris for buket-->
+                        <div class="felt">
+                            <label>Pris</label>
+
+                            <select name="liste">
+                                <option value="">Min. 150 kr.</option>
+                                <option value="150 kr.">150 kr.</option>
+                                <option value="200 kr.">200 kr.</option>
+                                <option value="250 kr.">250 kr.</option>
+                                <option value="300 kr.">300 kr.</option>
+                                <option value="350 kr.">350 kr.</option>
+                                <option value="400 kr.">400 kr.</option>
+                                <option value="450 kr.">450 kr.</option>
+                                <option value="500 kr.">500 kr.</option>
+                            </select>
+                        </div>
+
+                        <!--Farvenuance-->
+                        <div class="felt">
+                            <label>Farvenuance</label>
+                            <span>Se evt. vores udvalg under 'produkter'</span>
+                            <select name="liste">
+                                <option value="">Fx. Hvide/lyse</option>
+                                <option value="Hvide/lyse">Hvide/lyse</option>
+                                <option value="Lyserøde/pink">Lyserøde/pink</option>
+                                <option value="Rødlige">Rødlige</option>
+                                <option value="Lilla/Blålige">Lilla/Blålige</option>
+                                <option value="Orange/Gulige">Orange/Gulige</option>
+                                <option value="Floristens Valg">Floristens Valg</option>
+                            </select>
+                        </div>
+
+                        <!--Dato for afhentning-->
+                        <div class="felt">
+                            <label>Dato for afhentning</label>
+                            <input type="date" id="dato" name="dato" required>
+                        </div>
+
+                        <!--Tidspunkt for afhentning-->
+                        <div class="felt">
+                            <label>Tidspunkt for afhenting</label>
+                            <span>Afhentning uden for butikkens åbningstider kan ske efter aftale</span>
+                            <input type="time" id="tid" name="tid" required>
+                        </div>
+
+                        <!--Navn-->
+                        <div class=“felt”>
+                            <label>Fulde navn</label>
+                            <input placeholder="fx. Pia Hansen" type=“text” id=“name” name=“name” required>
+                        </div>
+
+
+                        <!--Telefonnr.-->
+                        <div class="felt">
+                            <label>Telefon nr.</label>
+                            <input placeholder="fx. 46 35 51 62" type="tel" id="telefon" name="telefon" required>
+                        </div>
+
+                        <!--Email-->
+                        <div class=“felt”>
+                            <label> Email </label>
+                            <input placeholder=" fx. esperanceblomster@gmail.com" type=“email” id=“email” name=“email” required>
+                        </div>
+
+                        <!--Tekstfelt-->
+                        <div class=“felt”>
+                            <label>Eventuelle ønsker eller kommentarer</label>
+                            <span>Fx. specifikke blomsterønsker</span>
+                            <textarea placeholder="Skriv her" name=“besked” rows=“10”></textarea>
+                        </div>
+
+                        <button>Send bestilling</button>
+
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="col">
+                <h4>Åbningstider</h4>
+                <p>Mandag - Lukket</p>
+                <p>Tirsdag - 10.00 - 17.30</p>
+                <p>Onsdag - 10.00 - 17.30</p>
+                <p>Torsdag - 10.00 - 17.30</p>
+                <p>Fredag - 10.00 - 17.30</p>
+                <p>Lørdag - 09.30 - 14.00</p>
+                <p>Søndag - Lukket</p>
+            </div>
+            <div class="col">
+                <h4>Adresse</h4>
+                <p>
+                    Klosterengen 60
+                </p>
+                <p>
+                    4000 Roskilde
+                </p>
+                <h4>Kontakt</h4>
+                <p>Tlf. +45 46 35 51 62</p>
+                <p>Email - Esperanceblomster@gmail.com</p>
+                <h4> CVR-nr.</h4>
+                <p>32027946</p>
+
+            </div>
+            <div class="col">
+                <h4>Betaling</h4>
+                <p>Mobilepay +45 42 34 07 05</p>
+                <p>Bankoverførsel til Nordea</p>
+                <p>Reg nr. 2280</p>
+                <p>Konto nr. 43 80 75 32 22</p>
+                <p>Betalingskort - vi tager alle slags kort i butikken</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
