@@ -1,13 +1,20 @@
 /* Overordnet Html */
-
-body {
-    margin: 0;
-}
-
 main {
     max-width: 1080px;
     margin: 1rem auto;
 }
+
+section {
+    width: 1080px;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+/* Skriftyper, skriftstørrelser */
 
 p {
     font-family: 'Montserrat';
@@ -36,11 +43,6 @@ h4 {
 
 nav a {
     font-family: 'Montserrat';
-}
-
-img {
-    width: 100%;
-    max-width: 100%;
 }
 
 /* Navigation */

@@ -82,6 +82,7 @@ button {
     #om_os .section_wrapper h2 {
         position: absolute;
         margin-top: 1rem;
+        font-size: 3rem;
 
     }
 
@@ -109,6 +110,7 @@ button {
         position: absolute;
         margin-left: 28.7rem;
         margin-top: 1rem;
+        font-size: 3rem;
     }
 
     #blomster_abonnement img {
@@ -134,6 +136,7 @@ button {
         position: absolute;
         margin-left: 29rem;
         margin-top: 1rem;
+        font-size: 3rem;
     }
 
     #bestil_blomster img {
