@@ -61,7 +61,7 @@ h2 {
 #first_section .section_wrapper p {
     text-align: center;
     color: #000000;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat';
     margin-left: 10rem;
     margin-right: 10rem;
     padding-bottom: 3rem;
@@ -125,6 +125,7 @@ h2 {
 
 .text p {
     color: white;
+    font-family: 'Montserrat';
 }
 
 .text h3 {
