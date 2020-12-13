@@ -11,7 +11,12 @@ main {
 
 }
 
-
+.pil {
+    cursor: pointer;
+    text-align: left;
+    font-size: 2rem;
+    color: #FDD882
+}
 
 section {
     text-align: center;
