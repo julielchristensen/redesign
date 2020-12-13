@@ -110,13 +110,11 @@ section {
 /*font styling and margins*/
 h2 {
     font-size: 2rem;
-
     margin-bottom: 5px;
 }
 
 p {
     font-size: 1.2rem;
-
     margin: 15px;
 }
 
@@ -130,4 +128,36 @@ p {
 /*for hiding images*/
 .gem {
     display: none;
+}
+
+@media (max-width:700px) {
+
+    section {
+        max-width: 500px;
+        margin: 1em auto;
+    }
+
+
+/* image controls*/
+#imageControls {
+    margin: 10px 0px 10px 0px;
+    grid-gap: 8px;
+}
+
+/*button placement*/
+#next_button {
+    width: 30px;
+    height: 30px;
+    margin-left: 100px;
+    padding: 5px 2px 0px 4px;
+}
+
+#prev_button {
+    width: 30px;
+    height: 30px;
+    margin-right: 100px;
+    padding: 5px 4px 0px 2px;
+}
+
+
 }
