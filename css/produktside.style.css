@@ -21,6 +21,12 @@ main {
 section {
     text-align: center;
 }
+#first_section{
+    padding:0px;
+}
+#second_section{
+    padding-top:10px;
+}
 
 .row {
     margin-top: 20px;
@@ -107,14 +113,14 @@ section {
     padding: 0px 4px 0px 2px;
 }
 
-/*font styling and margins*/
+/*txt margins and alignment*/
 h2 {
-    font-size: 2rem;
+
     margin-bottom: 5px;
 }
 
 p {
-    font-size: 1.2rem;
+
     margin: 15px;
 }
 
@@ -130,7 +136,9 @@ p {
     display: none;
 }
 
-@media (max-width:700px) {
+
+
+@media (max-width:1080px) {
 
     section {
         max-width: 500px;
