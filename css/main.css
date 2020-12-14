@@ -76,24 +76,18 @@ header {
     background-color: white;
 }
 
-nav {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-}
 
 nav a {
     text-decoration: none;
     color: black;
-    padding: 20px;
     font-size: 1rem;
+
 }
 
 #menuknap {
     display: inline-block;
     margin-top: 35px;
-    font-size: 2rem;
+    font-size: 2.5rem;
     cursor: pointer;
 }
 
@@ -106,7 +100,8 @@ nav a {
 
 #menu li {
     display: inline-block;
-    font-size: 1vw;
+    font-size: 1rem;
+    margin: 1rem;
 
 }
 
@@ -165,5 +160,13 @@ nav a {
         opacity: 1;
 
     }
+
+    nav {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
 
 }
