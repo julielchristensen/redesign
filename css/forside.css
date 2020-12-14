@@ -55,13 +55,14 @@ nav a {
 h1 {
     text-align: center;
     font-family: 'Playfair Display';
-    font-size: 5rem;
+    font-size: 6rem;
     color: #D7D7D9;
 }
 
 h2 {
     color: #FDD882;
     font-family: 'Playfair Display';
+    text-align: center;
 }
 
 h4 {
@@ -132,7 +133,7 @@ p {
 
 /*sektion 2*/
 
-#sektion2 h2 {
+#sektion2 {
     text-align: center;
 }
 
@@ -199,7 +200,6 @@ p {
     }
 
     #sektion1 {
-        background: url(forside_billeder/forsideposter.jpg);
         background-size: cover;
     }
 }
