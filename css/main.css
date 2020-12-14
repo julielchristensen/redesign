@@ -1,5 +1,12 @@
 /* Overordnet Html */
 
+<<<<<<< HEAD:css/main.css
+=======
+* {
+    box-sizing: border-box;
+}
+
+>>>>>>> origin/master:main.css
 main {
     max-width: 1080px;
     margin: 1rem auto;
@@ -7,12 +14,15 @@ main {
 
 section {
     max-width: 1080px;
+<<<<<<< HEAD:css/main.css
     margin: 0 auto;
     padding: 2rem;
 }
 
 body {
     margin: 0;
+=======
+>>>>>>> origin/master:main.css
 }
 
 img {
