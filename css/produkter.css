@@ -24,7 +24,6 @@
         margin-right: 11rem;
     }
 
-    <<<<<<< HEAD
 }
 
 @media (min-width:350px) {
@@ -51,7 +50,7 @@
         width: 100%;
         opacity: 0;
         transition: .2s ease;
-        background-color: #c6c6c6;
+        background-color: white;
         text-align: center;
     }
 
@@ -71,7 +70,7 @@
     }
 
     .text p {
-        color: white;
+        color: #000000;
     }
 
     .text h3 {
