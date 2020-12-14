@@ -104,6 +104,11 @@ button {
     }
 
     /* Om os section 2 */
+
+    #cvr h2 {
+        text-align: center;
+    }
+
     #cvr .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 2fr;
