@@ -110,41 +110,22 @@ nav a {
 
 
 
-/* footer */
+/* Footer */
 
-#footer {
-    background-color: #ffffff;
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-    font-size: 1rem;
-}
-
-.footer {
-    display: inline-block;
-    color: #FDD882;
-    padding: 1px;
-    margin: 1px;
-    text-decoration: none;
-}
-
-.footer img {
+#footer img {
     display: inline-block;
     width: 30px;
     height: 30px;
 }
 
-.footer .foelg_os img {
+#footer .foelg_os img {
     display: inline-block;
     width: 43px;
     height: 43px;
 }
 
-.footer p {
-    font-size: 0.8rem;
-    padding: 1px;
-    margin: 1px;
-    text-decoration: none;
-    color: #9a9a9a
+#footer {
+    text-align: center;
 }
 
 
@@ -171,5 +152,30 @@ nav a {
 
     }
 
+    /* footer */
+
+
+    #footer .col {
+        display: inline-block;
+        color: #FDD882;
+        text-decoration: none;
+
+    }
+
+    #footer p {
+        font-size: 0.8rem;
+        padding: 1px;
+        margin: 2rem;
+        text-decoration: none;
+        color: #9a9a9a
+    }
+
+    #footer {
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
 }
