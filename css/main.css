@@ -1,15 +1,25 @@
 /* Overordnet Html */
+
+main {
+    max-width: 1080px;
+    margin: 1rem auto;
+}
+
 section {
-    width: 1080px;
+    max-width: 1080px;
     margin: 0 auto;
     padding: 2rem;
+}
+
+body {
+    margin: 0;
 }
 
 img {
     width: 100%;
     max-width: 100%;
-}
 
+}
 
 /* Skriftyper, skriftstørrelser */
 
@@ -20,12 +30,16 @@ p {
 
 h1 {
     font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 5rem;
+    color: #D7D7D9;
 
 }
 
 h2 {
     color: #FDD882;
     font-family: 'Playfair Display', serif;
+    font-size: 3rem;
 }
 
 h3 {
@@ -41,6 +55,7 @@ h4 {
 nav a {
     font-family: 'Montserrat';
 }
+
 
 /* Navigation */
 
@@ -87,13 +102,13 @@ nav a {
 
 }
 
+
+
 /* footer */
 
 #footer {
-    height: 400px;
     background-color: #ffffff;
     text-align: center;
-    padding: 20px;
     font-family: 'Playfair Display', serif;
     font-size: 1rem;
 }
