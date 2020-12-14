@@ -1,11 +1,16 @@
 /* Overordnet Html */
+
+* {
+    box-sizing: border-box;
+}
+
 main {
     max-width: 1080px;
     margin: 1rem auto;
 }
 
 section {
-    width: 1080px;
+    max-width: 1080px;
 }
 
 img {
