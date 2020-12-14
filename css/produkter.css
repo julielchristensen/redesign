@@ -2,6 +2,8 @@
 
 @media (min-width:1080px) {
 
+    /* Overskrift & tekstboks */
+
     h2 {
         text-align: center;
 
@@ -14,6 +16,8 @@
         margin-right: 10rem;
         padding-bottom: 3rem;
     }
+
+    /* Ikoner (Overlays er i den næste media, sådan så det passer på mobil version)*/
 
     #second_section .section_wrapper {
         text-align: center;
