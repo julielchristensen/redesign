@@ -108,17 +108,19 @@ button {
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-gap: 5rem;
-
-    }
-
-    #cvr p {
         text-align: center;
 
     }
 
-    #cvr h3 {
-        text-align: center;
 
+    #cvr a {
+        font-family: 'Montserrat';
+        text-decoration: none;
+        color: black;
+    }
+
+    #cvr a:hover {
+        color: #FDD882;
     }
 
     /* Blomster Abonnement section */
