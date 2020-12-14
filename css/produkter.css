@@ -24,76 +24,8 @@
         margin-right: 11rem;
     }
 
-<<<<<<< HEAD
+    <<<<<<< HEAD
 }
-=======
-    @media (min-width:350px) {
-
-        /*----overlay----*/
-
-
-        .col {
-            position: relative;
-            width: 100%;
-            margin: auto;
-
-        }
-
-        .col {
-            width: 350px;
-            height: 350px;
-        }
-
-        .overlay {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 100%;
-            opacity: 0;
-            transition: .2s ease;
-            background-color: #c6c6c6;
-            text-align: center;
-        }
-
-        .col:hover .overlay {
-            opacity: 1;
-        }
-
-        .text {
-            font-size: 0.8rem;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            -webkit-transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            text-align: center;
-        }
-
-        .text p {
-            color: white;
-        }
-
-        .text h3 {
-            font-size: 1.1rem;
-        }
-
-        .produktknap {
-            background-color: #D7D7D9;
-            font-family: 'Montserrat';
-            font-size: 0.8rem;
-            opacity: 60%;
-            padding: 12px 24px;
-            border: none;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        .produktknap a {
-            text-decoration: none;
-            color: black;
-        }
->>>>>>> origin/master
 
 @media (min-width:350px) {
 
@@ -104,6 +36,7 @@
         position: relative;
         width: 100%;
         margin: auto;
+
     }
 
     .col {
