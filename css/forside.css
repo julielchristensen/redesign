@@ -11,22 +11,16 @@ body {
     margin: 0;
 }
 
-
-img {
-    width: 100%;
+img,
+video {
     max-width: 100%;
+    height: auto;
+}
 
-    img,
-    video {
-        max-width: 100%;
-        height: auto;
+/* Navigation */
+/* navigation tilføjet i main.css*/
 
-    }
-
-    /* Navigation */
-    /* navigation tilføjet i main.css*/
-
-    /*
+/*
 header {
     background-color: white;
 }
@@ -55,155 +49,166 @@ nav a {
 }
 */
 
-    /*Main*/
+/*Main*/
 
 
-    h1 {
-        text-align: center;
-        font-family: 'Playfair Display';
-        font-size: 5rem;
-        color: #D7D7D9;
+h1 {
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 5rem;
+    color: #D7D7D9;
+}
+
+h2 {
+    color: #FDD882;
+    font-family: 'Playfair Display';
+}
+
+h4 {
+    font-family: 'Playfair Display';
+}
+
+p {
+    font-family: 'Montserrat';
+    font-size: 0.8rem;
+}
+
+/* sektion 1*/
+
+@media (min-width: 700px) {
+
+    .forsidevideo {
+        position: relative;
     }
 
-    h2 {
-        color: #FDD882;
-        font-family: 'Playfair Display';
+    .forsidevideo videoBG {
+        position: relative;
+        z-index: 0;
     }
 
-    h4 {
-        font-family: 'Playfair Display';
+    .overlaytekst {
+        position: absolute;
+        top: 30%;
+        right: 24%;
+        z-index: 1;
     }
 
-    p {
-        font-family: 'Montserrat';
-        font-size: 0.8rem;
-    }
+    /*
+#videoBG {
+        position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+*/
+}
 
-    /* sektion 1*/
+#sektion1 div {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+}
 
+
+.overlaytekst a {
+    background-color: #D7D7D9;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    opacity: 60%;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.overlaytekst a {
+    text-decoration: none;
+    color: black;
+}
+
+}
+
+/*sektion 2*/
+
+#sektion2 h2 {
+    text-align: center;
+}
+
+#sektion2 {
+    padding: 30px;
+    padding-bottom: 70px;
+}
+
+/*sektion 3*/
+/*@media (min-width: 1200px) {*/
+
+
+#sektion3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.col {
+    position: relative;
+}
+
+.knap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #D7D7D9;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    opacity: 70%;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.knap a {
+    text-decoration: none;
+    color: black;
+}
+
+/*media*/
+
+@media (min-width: 1200px) {
     #videoBG {
-        /*    position: absolute;*/
-        z-index: -1;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
+        width: 100%;
+        height: auto;
     }
+}
 
-    @media (min-width: 1200px) {
-        #videoBG {
-            width: 100%;
-            height: auto;
-        }
+@media (max-width: 1200px) {
+    #videoBG {
+        width: auto;
+        height: 100%;
     }
+}
 
-    @media (max-width: 1200px) {
-        #videoBG {
-            width: auto;
-            height: 100%;
-        }
-    }
-
-    @media (max-width: 600px) {
-        #videoBG {
-            display: none;
-        }
-
-        #sektion1 {
-            background: url(forside_billeder/forsideposter.jpg);
-            background-size: cover;
-        }
+@media (max-width: 600px) {
+    #videoBG {
+        display: none;
     }
 
     #sektion1 {
-        display: grid;
-        grid-template-columns: 2fr auto 2fr;
-        grid-template-rows: 2fr 2fr 2fr;
+        background: url(forside_billeder/forsideposter.jpg);
+        background-size: cover;
     }
-
-    .sektiontekst {
-        grid-column: 2/3;
-        grid-row: 2/3;
-        padding: 10rem;
-    }
-
-    #sektion1 div {
-        grid-column: 2/3;
-        grid-row: 2/3;
-        text-align: center;
-    }
-
-    .forsideknap {
-        background-color: #D7D7D9;
-        font-family: 'Montserrat';
-        font-size: 1rem;
-        opacity: 60%;
-        padding: 12px 24px;
-        border: none;
-        cursor: pointer;
-        border-radius: 5px;
-    }
-
-    .forsideknap a {
-        text-decoration: none;
-        color: black;
-    }
+}
 
 
-    @media (min-width: 1200px) {
-        /*sektion 2*/
+/*-----footer----*/
+/* footer tilføjet i main.css*/
 
-        #sektion2 h2 {
-            text-align: center;
-        }
-
-        #sektion2 {
-            padding: 30px;
-            padding-bottom: 70px;
-        }
-    }
-
-    /*sektion 3*/
-    /*@media (min-width: 1200px) {*/
-
-
-    #sektion3 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 2rem;
-        position: relative;
-        padding-bottom: 20px;
-    }
-
-    .col {
-        position: relative;
-    }
-
-    .knap {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background-color: #D7D7D9;
-        font-family: 'Montserrat';
-        font-size: 1rem;
-        opacity: 70%;
-        padding: 12px 24px;
-        border: none;
-        cursor: pointer;
-        border-radius: 5px;
-    }
-
-    .knap a {
-        text-decoration: none;
-        color: black;
-    }
-
-
-    /*-----footer----*/
-    /* footer tilføjet i main.css*/
-
-    /*
+/*
 #footer {
     height: 400px;
     width: 100%;
