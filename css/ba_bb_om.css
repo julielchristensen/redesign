@@ -103,6 +103,23 @@ button {
         height: 500px;
     }
 
+    /* Om os section 2 */
+    #cvr .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 5rem;
+
+    }
+
+    #cvr p {
+        text-align: center;
+
+    }
+
+    #cvr h3 {
+        text-align: center;
+
+    }
 
     /* Blomster Abonnement section */
 
