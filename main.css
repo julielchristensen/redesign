@@ -1,11 +1,8 @@
 /* Overordnet Html */
-main {
-    max-width: 1080px;
-    margin: 1rem auto;
-}
-
 section {
     width: 1080px;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
 img {
