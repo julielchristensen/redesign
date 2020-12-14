@@ -103,6 +103,30 @@ button {
         height: 500px;
     }
 
+    /* Om os section 2 */
+
+    #cvr h2 {
+        text-align: center;
+    }
+
+    #cvr .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap: 5rem;
+        text-align: center;
+
+    }
+
+
+    #cvr a {
+        font-family: 'Montserrat';
+        text-decoration: none;
+        color: black;
+    }
+
+    #cvr a:hover {
+        color: #FDD882;
+    }
 
     /* Blomster Abonnement section */
 
@@ -157,6 +181,11 @@ button {
 
 
     /*Tak for din bestilling */
+
+    #tak {
+        padding: 9rem;
+        margin: 0 auto;
+    }
 
     #tak .section_wrapper {
         margin-bottom: 10rem;
