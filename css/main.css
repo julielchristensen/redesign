@@ -64,6 +64,9 @@ nav a {
     font-family: 'Montserrat';
 }
 
+nav a:hover {
+    color: #FDD882;
+}
 
 /* Navigation */
 
