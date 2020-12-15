@@ -87,7 +87,7 @@ p {
 
     .overlaytekst {
         position: absolute;
-        top: 30%;
+        top: 60%;
         right: 24%;
         z-index: 1;
     }
@@ -105,8 +105,6 @@ p {
 }
 
 #sektion1 div {
-    grid-column: 2/3;
-    grid-row: 2/3;
     text-align: center;
 }
 
