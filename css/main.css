@@ -125,9 +125,9 @@ nav a {
 
 }
 
-/*header img {
+.logodesktop {
     display: none;
-}*/
+}
 
 #logo h1 {
     font-size: 8vw;
@@ -138,7 +138,7 @@ nav a {
     display: none;
 }
 
-header img {
+.logomobil {
     position: absolute;
     width: 120px;
     height: 120px;
@@ -229,7 +229,7 @@ forside.html #sektion1 {
 
     }
 
-    header img {
+    .logodesktop {
         display: block;
         margin-top: 25px;
         margin-bottom: 0;
@@ -238,6 +238,11 @@ forside.html #sektion1 {
         height: 180px;
         width: 180px;
     }
+
+    .logomobil {
+        display: none;
+    }
+
 
     #logo h1 {
         display: none;
