@@ -20,9 +20,6 @@ img {
 video {
     position: relative;
     width: 100%;
-    box-sizing: border-box;
-    position: relative;
-    z-index: 0;
 }
 
 /*Main*/
@@ -117,6 +114,7 @@ p {
 }
 
 /*sektion 3*/
+
 /*@media (min-width: 1200px) {*/
 
 
@@ -125,13 +123,47 @@ p {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
 }
 
 .col {
     position: relative;
 }
 
+#sektion3 div {
+    text-align: center;
+}
+
+
+article {
+    position: absolute;
+    top: 45%;
+    right: 35%;
+    z-index: 1;
+}
+
+article p {
+    font-size: 1.5rem;
+    color: #FDD882;
+}
+
+article a {
+    background-color: #D7D7D9;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    opacity: 60%;
+    padding: 15px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+}
+
+/*
 .knap {
     position: absolute;
     top: 50%;
@@ -151,6 +183,7 @@ p {
     text-decoration: none;
     color: black;
 }
+*/
 
 /*media*/
 
@@ -170,12 +203,40 @@ p {
 
 @media (max-width: 600px) {
     #videoBG {
-        display: none;
+        width: 100%;
+        z-index: -1;
+        /*        display: none;*/
     }
 
+    /*
     #sektion1 {
         background-image: url(../forsideposter.jpg);
         background-size: cover;
+        height: 100vw;
+    }
+*/
+
+    #sektion1 h1 {
+        display: none;
+    }
+
+    .overlaytekst {
+        position: absolute;
+        top: 80%;
+        right: 35%
+    }
+
+    #sektion1 p {
+        display: none;
+    }
+
+
+    #sektion2 h2 {
+        font-size: 2rem;
+    }
+
+    #sektion3 article {
+        right: 15%;
     }
 }
 

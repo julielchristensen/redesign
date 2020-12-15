@@ -8,10 +8,10 @@
     }
 
     #first_section .section_wrapper p {
-        text-align: left;
+        text-align: center;
         color: #000000;
-        margin-left: 8rem;
-        margin-right: 8rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
         padding-bottom: 3rem;
     }
 
