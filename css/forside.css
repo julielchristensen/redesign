@@ -2,7 +2,8 @@
     box-sizing: border-box;
 }
 
-main {
+#sektion2,
+#sektion3 {
     max-width: 1080px;
     margin: 1rem auto;
 }
