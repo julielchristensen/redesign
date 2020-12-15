@@ -23,10 +23,6 @@
         margin-left: 9rem;
         margin-right: 9rem;
     }
-
-    #second_section {
-        margin-bottom: 5rem;
-    }
 }
 
 @media (min-width:350px) {
@@ -34,14 +30,14 @@
     /*----overlay----*/
 
 
-    .col {
+    .image col {
         position: relative;
         width: 100%;
         margin: auto;
 
     }
 
-    .col {
+    .image col {
         width: 350px;
         height: 350px;
     }
@@ -57,7 +53,7 @@
         text-align: center;
     }
 
-    .col:hover .overlay {
+    .image col:hover .overlay {
         opacity: 1;
     }
 

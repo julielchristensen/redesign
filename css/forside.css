@@ -200,6 +200,7 @@ p {
     }
 
     #sektion1 {
+        background-image: url(../forsideposter.jpg);
         background-size: cover;
     }
 }
