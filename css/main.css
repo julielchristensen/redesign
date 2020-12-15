@@ -12,14 +12,6 @@ main {
     margin-top: 1rem;
 }
 
-/*
-section {
-    max-width: 1080px;
-
-    margin: 0 auto;
-    padding: 2rem;
-}
-*/
 
 body {
     margin: 0;
@@ -141,6 +133,10 @@ header img {
 }
 
 
+forside.html #sektion1 {
+    background-image: url(forsideposter.jpg);
+}
+
 /*Media*/
 
 @media (min-width:1080px) {
@@ -190,8 +186,4 @@ header img {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-}
-
-forside.html #sektion1 {
-    background-image: url(forsideposter.jpg);
 }
