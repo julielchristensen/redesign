@@ -117,6 +117,7 @@ p {
 }
 
 /*sektion 3*/
+
 /*@media (min-width: 1200px) {*/
 
 
@@ -211,6 +212,11 @@ article a {
     #sektion1 {
         background-image: url(../forsideposter.jpg);
         background-size: cover;
+        height: 100vw;
+    }
+
+    #sektion1 h1 {
+        color: #D9C9C1;
     }
 }
 
