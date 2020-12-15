@@ -6,12 +6,8 @@ h2 {
 #first_section .section_wrapper p {
     text-align: center;
     color: #000000;
-    margin: 2rem;
-}
-
-.imagecol {
-    margin-left: 4.5rem;
-
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 /* Media */
@@ -25,12 +21,11 @@ h2 {
         position: relative;
         width: 100%;
         margin-bottom: 1rem;
-
-    }
-
-    .imagecol {
+        margin-left: 3rem;
+        padding: 1rem;
         width: 350px;
         height: 350px;
+
     }
 
     .overlay {
