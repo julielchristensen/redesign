@@ -1,6 +1,5 @@
 section {
     max-width: 1080px;
-
     margin: 0 auto;
     padding: 2rem;
 }
@@ -69,6 +68,16 @@ button {
 
 }
 
+#cvr a {
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: black;
+}
+
+#cvr a:hover {
+    color: #FDD882;
+}
+
 /* Media */
 
 @media (min-width:1080px) {
@@ -124,16 +133,6 @@ button {
 
     }
 
-
-    #cvr a {
-        font-family: 'Montserrat';
-        text-decoration: none;
-        color: black;
-    }
-
-    #cvr a:hover {
-        color: #FDD882;
-    }
 
     /* Blomster Abonnement section */
 
