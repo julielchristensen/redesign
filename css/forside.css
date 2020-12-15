@@ -137,19 +137,19 @@ p {
 }
 
 
-.overlay3 {
+article {
     position: absolute;
     top: 45%;
-    right: 33%;
+    right: 35%;
     z-index: 1;
 }
 
-.overlay3 p {
+article p {
     font-size: 1.5rem;
     color: #FDD882;
 }
 
-.overlay3 a {
+article a {
     background-color: #D7D7D9;
     font-family: 'Montserrat';
     font-size: 1rem;
@@ -160,7 +160,7 @@ p {
     border-radius: 5px;
 }
 
-.overlay3 a {
+article a {
     text-decoration: none;
     color: black;
 }
