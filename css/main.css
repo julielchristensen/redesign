@@ -104,9 +104,10 @@ nav a {
 }
 
 #menuknap {
-    display: inline-block;
+
     cursor: pointer;
-    margin-top: 1.5rem;
+    margin-left: 24rem;
+    margin-top: 2.30rem;
 }
 
 .bar1,
@@ -128,6 +129,14 @@ nav a {
 header img {
     display: none;
 }
+
+/*header img {
+    width: 120px;
+    height: 120px;
+    margin-left: 1rem;
+
+}*/
+
 
 /* Rotate first bar */
 .change .bar1 {
@@ -216,6 +225,10 @@ forside.html #sektion1 {
         margin-right: auto;
         height: 180px;
         width: 180px;
+    }
+
+    #logo h1 {
+        display: none;
     }
 }
 
