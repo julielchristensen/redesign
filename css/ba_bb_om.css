@@ -163,6 +163,11 @@ button {
 
     }
 
+    #cvr iframe {
+        width: 600px;
+        height: 450px;
+    }
+
 
     /* Blomster Abonnement section */
 
