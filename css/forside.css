@@ -132,6 +132,40 @@ p {
     position: relative;
 }
 
+#sektion3 div {
+    text-align: center;
+}
+
+
+.overlay3 {
+    position: absolute;
+    top: 45%;
+    right: 33%;
+    z-index: 1;
+}
+
+.overlay3 p {
+    font-size: 1.5rem;
+    color: #FDD882;
+}
+
+.overlay3 a {
+    background-color: #D7D7D9;
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    opacity: 60%;
+    padding: 15px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.overlay3 a {
+    text-decoration: none;
+    color: black;
+}
+
+/*
 .knap {
     position: absolute;
     top: 50%;
@@ -151,6 +185,7 @@ p {
     text-decoration: none;
     color: black;
 }
+*/
 
 /*media*/
 
