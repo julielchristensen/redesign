@@ -20,20 +20,22 @@
 
 <body>
     <header>
-
         <div id="logo">
+            <h1>Esperance Blomster</h1>
             <a href="forside.html"><img src="logo.svg" alt="logo"></a>
         </div>
-
         <nav>
-            <div id="menuknap">☰</div>
+            <div id="menuknap" onclick="burgerMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
             <ul id="menu" class="hidden">
-                <li><a href="forside.html"><b>Forside</b></a></li>
-                <li><a href="produkter.html"><b>Produkter</b></a></li>
-                <li><a href="bestil_blomster.html"><b>Bestil Blomster</b></a></li>
-                <li><a href="blomster_abonnement.html"><b>Blomster Abonnement</b></a></li>
-                <li><a href="om_os.html"><b>Om os</b></a></li>
-                <p class="pil"><a class="pil" href="produkter.html">&#8592;</a></p>
+                <li><a href="forside.html">Forside</a></li>
+                <li><a href="produkter.html">Produkter</a></li>
+                <li><a href="bestil_blomster.html">Bestil Blomster</a></li>
+                <li><a href="blomster_abonnement.html">Blomster Abonnement</a></li>
+                <li><a href="om_os.html">Om os</a></li>
             </ul>
 
         </nav>
@@ -134,4 +136,6 @@
     <script src="js/produktside.script.js"></script>
     <script src="js/script.js"></script>
     <!--<script src="js/login.js"></script>-->
-</body></html>
+</body>
+
+</html>
