@@ -78,6 +78,31 @@ button {
     color: #FDD882;
 }
 
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_undersider {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 10vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown_undersider a:hover {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+}
+
+.dropdown:hover .dropdown_undersider {
+    display: block;
+}
+
 /* Media */
 
 @media (min-width:1080px) {
