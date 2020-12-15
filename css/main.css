@@ -85,7 +85,7 @@ header {
 
 
 nav ul {
-    position: fixed;
+    position: relative;
     padding-left: 0;
     background-color: white;
     width: 100%;
