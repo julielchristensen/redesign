@@ -181,3 +181,7 @@ nav a {
     }
 
 }
+
+forside.html #sektion1 {
+    background-image: url(forsideposter.jpg);
+}
