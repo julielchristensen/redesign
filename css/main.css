@@ -110,7 +110,14 @@ nav a {
 
 }
 
-
+#logo {
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 180px;
+    width: 180px;
+}
 
 /* Footer */
 
@@ -180,4 +187,8 @@ nav a {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+}
+
+forside.html #sektion1 {
+    background-image: url(forsideposter.jpg);
 }
