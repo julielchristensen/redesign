@@ -6,8 +6,7 @@ h2 {
 #first_section .section_wrapper p {
     text-align: center;
     color: #000000;
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin: 2.5rem;
 }
 
 /* Media */
