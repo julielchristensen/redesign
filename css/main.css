@@ -222,6 +222,7 @@ forside.html #sektion1 {
         background: none;
         height: 2rem;
         width: 100%;
+        margin: 0;
     }
 
     nav {
@@ -235,6 +236,7 @@ forside.html #sektion1 {
     header img {
         display: block;
         margin-top: 25px;
+        margin-bottom: 0;
         margin-left: auto;
         margin-right: auto;
         height: 180px;
