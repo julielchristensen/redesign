@@ -57,6 +57,8 @@ h4 {
 
 nav a {
     font-family: 'Montserrat';
+    text-decoration: none;
+    color: black;
 }
 
 nav a:hover {
@@ -64,10 +66,17 @@ nav a:hover {
 }
 
 /* Navigation */
+nav {
+    position: fixed;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
 
 .hidden {
     opacity: 0;
-    transform: translateX(-100%);
 }
 
 header {
@@ -75,42 +84,60 @@ header {
 }
 
 
-nav a {
-    text-decoration: none;
-    color: black;
-    font-size: 1rem;
+nav ul {
+    padding-left: 0;
+    background: white;
+    width: 100%;
+    height: 100vh;
+}
 
+nav a {
+    font-size: 1.2rem;
 }
 
 #menuknap {
     display: inline-block;
-    margin-top: 35px;
-    font-size: 2.5rem;
     cursor: pointer;
+    margin-top: 1.5rem;
 }
 
-#menu {
-    list-style-type: none;
-    text-decoration: none;
-    transition: transform 0.3s;
-    transform-origin: top left;
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #FDD882;
+    margin: 6px 0;
+    transition: 0.4s;
 }
 
 #menu li {
-    display: inline-block;
-    font-size: 1rem;
-    margin: 1rem;
+    list-style: none;
+    padding: 3rem;
 
 }
 
 header img {
-    display: block;
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 180px;
-    width: 180px;
+    display: none;
 }
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
 
 /* Footer */
 
@@ -139,26 +166,51 @@ forside.html #sektion1 {
 
 /*Media*/
 
-@media (min-width:1080px) {
-
-    /*Burgermenu*/
+@media (min-width:600px) {
+    /*Navigation*/
 
     #menuknap {
         display: none;
     }
 
     #menu.hidden {
-        transform: translateX(0);
         opacity: 1;
 
     }
 
+    #menu li {
+        display: inline-block;
+        margin: 1rem;
+        padding: 0;
+
+    }
+
+    nav ul {
+        padding-left: 0;
+        background: none;
+        height: 2rem;
+        width: 100%;
+    }
+
     nav {
+        position: relative;
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
 
     }
+
+    header img {
+        display: block;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 180px;
+        width: 180px;
+    }
+}
+
+@media (min-width:1080px) {
 
     /* footer */
 
