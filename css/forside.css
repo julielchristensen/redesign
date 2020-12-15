@@ -11,43 +11,18 @@ body {
     margin: 0;
 }
 
-img,
-video {
+img {
     max-width: 100%;
     height: auto;
 }
 
-/* Navigation */
-/* navigation tilføjet i main.css*/
-
-/*
-header {
-    background-color: white;
+video {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 0;
 }
-
-nav {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
-    padding: 20px;
-    font-family: 'Montserrat'
-}
-
-#menu {
-    list-style-type: none;
-    text-decoration: none;
-}
-
-#menu li {
-    display: inline-block;
-    font: 1vw;
-}
-*/
 
 /*Main*/
 
@@ -78,18 +53,9 @@ p {
 
 @media (min-width: 700px) {
 
-    .forsidevideo {
-        position: relative;
-    }
-
-    .forsidevideo videoBG {
-        position: relative;
-        z-index: 0;
-    }
-
     .overlaytekst {
         position: absolute;
-        top: 30%;
+        top: 60%;
         right: 24%;
         z-index: 1;
     }
@@ -107,18 +73,20 @@ p {
 }
 
 #sektion1 div {
-    grid-column: 2/3;
-    grid-row: 2/3;
     text-align: center;
 }
 
+.overlaytekst p {
+    font-size: 1.5rem;
+    color: #FDD882;
+}
 
 .overlaytekst a {
     background-color: #D7D7D9;
     font-family: 'Montserrat';
     font-size: 1rem;
     opacity: 60%;
-    padding: 12px 24px;
+    padding: 15px 24px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
@@ -135,6 +103,11 @@ p {
 
 #sektion2 {
     text-align: center;
+}
+
+#sektion2 p {
+    text-align: center;
+    font-size: 1rem;
 }
 
 #sektion2 {
@@ -206,58 +179,14 @@ p {
 }
 
 
-/*-----footer----*/
-/* footer tilføjet i main.css*/
+/* Overlay af H1 til Macbook 16'' */
 
-/*
-#footer {
-    height: 400px;
-    width: 100%;
-    background-color: #ffffff;
-    text-align: center;
-    padding: 20px;
-    font-family: 'Playfair Display', serif;
-    font-size: 1rem;
-}
+@media (min-width:1920px) {
 
-.footer {
-    display: inline-block;
-    color: #FDD882;
-    padding: 1px;
-    margin: 1px;
-    text-decoration: none;
-}
+    .overlaytekst {
+        position: absolute;
+        top: 50%;
+        right: 30%;
+        z-index: 1;
 
-.footer img {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-}
-
-.footer .foelg_os img {
-    display: inline-block;
-    width: 43px;
-    height: 43px;
-}
-
-.footer p {
-    font-size: 0.8rem;
-    padding: 1px;
-    margin: 1px;
-    text-decoration: none;
-    color: #9a9a9a
-}
-
-
-footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #D9C9C1;
-    gap: 5rem;
-    text-align: center;
-}
-
-#footertekst p {
-    font-size: 1rem;
-}
-*/
+    }
