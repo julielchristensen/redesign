@@ -51,7 +51,7 @@
                         <div class="felt">
                             <label>Pris</label>
 
-                            <select name="liste">
+                            <select name="liste" required>
                                 <option value="">Min. 150 kr.</option>
                                 <option value="150 kr.">150 kr.</option>
                                 <option value="200 kr.">200 kr.</option>
@@ -68,7 +68,7 @@
                         <div class="felt">
                             <label>Farvenuance</label>
                             <span>Se evt. vores udvalg under 'produkter'</span>
-                            <select name="liste">
+                            <select name="liste" required>
                                 <option value="">Fx. Hvide/lyse</option>
                                 <option value="Hvide/lyse">Hvide/lyse</option>
                                 <option value="Lyserøde/pink">Lyserøde/pink</option>
@@ -89,8 +89,26 @@
                         <div class="felt">
                             <label>Tidspunkt for afhenting</label>
                             <span>Afhentning uden for butikkens åbningstider kan ske efter aftale</span>
-                            <input id="time" type="time" name="tid" value="09:30" min="09:30" max="17:30">
-                            <!-- <input type="time" id="tid" name="tid" required>-->
+                            <select name="liste" required>
+                                <option value="">Fx. 09.30</option>
+                                <option value="09.30">09.30</option>
+                                <option value="10.00">10.00</option>
+                                <option value="10.30">10.30</option>
+                                <option value="11.00">11.00</option>
+                                <option value="11.30">11.30</option>
+                                <option value="12.00">12.00</option>
+                                <option value="12.30">12.30</option>
+                                <option value="13.00">13.00</option>
+                                <option value="13.30">13.30</option>
+                                <option value="14.00">14.00</option>
+                                <option value="14.30">14.30</option>
+                                <option value="15.00">15.00</option>
+                                <option value="15.30">15.30</option>
+                                <option value="16.00">16.00</option>
+                                <option value="16.30">16.30</option>
+                                <option value="17.00">17.00</option>
+                                <option value="17.10">17.10</option>
+                            </select>
                         </div>
 
                         <!--Navn-->
