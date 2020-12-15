@@ -181,7 +181,7 @@ p {
 
 /* Overlay af H1 til Macbook 16'' */
 
-@media (min-width:1920) {
+@media (min-width:1920px) {
 
     .overlaytekst {
         position: absolute;
