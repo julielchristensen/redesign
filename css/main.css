@@ -67,7 +67,7 @@ nav a:hover {
 
 /* Navigation */
 nav {
-    position: fixed;
+    position: absolute;
     text-align: center;
     top: 0;
     left: 0;
@@ -85,6 +85,7 @@ header {
 
 
 nav ul {
+    position: fixed;
     padding-left: 0;
     background-color: white;
     width: 100%;
@@ -93,6 +94,7 @@ nav ul {
 
 nav a {
     font-size: 1.2rem;
+    padding: 1rem;
 }
 
 #menuknap {
@@ -186,6 +188,7 @@ forside.html #sektion1 {
     }
 
     nav ul {
+        position: relative;
         padding-left: 0;
         background: none;
         height: 2rem;
