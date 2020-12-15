@@ -20,9 +20,6 @@ img {
 video {
     position: relative;
     width: 100%;
-    box-sizing: border-box;
-    position: relative;
-    z-index: 0;
 }
 
 /*Main*/
@@ -117,6 +114,7 @@ p {
 }
 
 /*sektion 3*/
+
 /*@media (min-width: 1200px) {*/
 
 
@@ -205,12 +203,40 @@ article a {
 
 @media (max-width: 600px) {
     #videoBG {
-        display: none;
+        width: 100%;
+        z-index: -1;
+        /*        display: none;*/
     }
 
+    /*
     #sektion1 {
         background-image: url(../forsideposter.jpg);
         background-size: cover;
+        height: 100vw;
+    }
+*/
+
+    #sektion1 h1 {
+        display: none;
+    }
+
+    .overlaytekst {
+        position: absolute;
+        top: 80%;
+        right: 35%
+    }
+
+    #sektion1 p {
+        display: none;
+    }
+
+
+    #sektion2 h2 {
+        font-size: 2rem;
+    }
+
+    #sektion3 article {
+        right: 15%;
     }
 }
 
