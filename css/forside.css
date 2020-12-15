@@ -24,38 +24,6 @@ video {
     z-index: 0;
 }
 
-/* Navigation */
-/* navigation tilføjet i main.css*/
-
-/*
-header {
-    background-color: white;
-}
-
-nav {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
-    padding: 20px;
-    font-family: 'Montserrat'
-}
-
-#menu {
-    list-style-type: none;
-    text-decoration: none;
-}
-
-#menu li {
-    display: inline-block;
-    font: 1vw;
-}
-*/
-
 /*Main*/
 
 
@@ -211,58 +179,14 @@ p {
 }
 
 
-/*-----footer----*/
-/* footer tilføjet i main.css*/
+/* Overlay af H1 til Macbook 16'' */
 
-/*
-#footer {
-    height: 400px;
-    width: 100%;
-    background-color: #ffffff;
-    text-align: center;
-    padding: 20px;
-    font-family: 'Playfair Display', serif;
-    font-size: 1rem;
-}
+@media (min-width:1920) {
 
-.footer {
-    display: inline-block;
-    color: #FDD882;
-    padding: 1px;
-    margin: 1px;
-    text-decoration: none;
-}
+    .overlaytekst {
+        position: absolute;
+        top: 50%;
+        right: 30%;
+        z-index: 1;
 
-.footer img {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-}
-
-.footer .foelg_os img {
-    display: inline-block;
-    width: 43px;
-    height: 43px;
-}
-
-.footer p {
-    font-size: 0.8rem;
-    padding: 1px;
-    margin: 1px;
-    text-decoration: none;
-    color: #9a9a9a
-}
-
-
-footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: #D9C9C1;
-    gap: 5rem;
-    text-align: center;
-}
-
-#footertekst p {
-    font-size: 1rem;
-}
-*/
+    }
