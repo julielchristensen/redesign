@@ -25,6 +25,8 @@ section {
     padding:0px;
 }
 #second_section{
+    margin:1em auto;
+    max-width: 900px;
     padding:10px;
 }
 
