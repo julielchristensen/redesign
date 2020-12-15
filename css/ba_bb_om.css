@@ -103,6 +103,11 @@ button {
     display: block;
 }
 
+#cvr iframe {
+    width: 100%;
+    height: 30rem;
+}
+
 /* Media */
 
 @media (min-width:1080px) {

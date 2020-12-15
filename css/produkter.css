@@ -1,19 +1,25 @@
 /* Media */
 
+section {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+#first_section .section_wrapper p {
+    text-align: center;
+    color: #000000;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-bottom: 3rem;
+}
+
 @media (min-width:1080px) {
-
-    h2 {
-        text-align: center;
-
-    }
-
-    #first_section .section_wrapper p {
-        text-align: center;
-        color: #000000;
-        margin-left: 2rem;
-        margin-right: 2rem;
-        padding-bottom: 3rem;
-    }
 
     #second_section .section_wrapper {
         text-align: center;
@@ -33,7 +39,7 @@
     .imagecol {
         position: relative;
         width: 100%;
-        margin: auto;
+        margin: 1rem;
 
     }
 
