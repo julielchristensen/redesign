@@ -19,8 +19,8 @@ h2 {
     .imagecol {
         position: relative;
         width: 100%;
-        margin-bottom: 1rem;
-        margin-left: 3rem;
+        margin-bottom: 1vh;
+        margin-left: 15vw;
         padding: 1rem;
         width: 350px;
         height: 350px;

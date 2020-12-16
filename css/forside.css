@@ -24,7 +24,6 @@ video {
 
 /*Main*/
 
-
 h1 {
     text-align: center;
     font-family: 'Playfair Display';
@@ -47,28 +46,8 @@ p {
     font-size: 0.8rem;
 }
 
+
 /* sektion 1*/
-
-@media (min-width: 700px) {
-
-    .overlaytekst {
-        position: absolute;
-        top: 60%;
-        right: 24%;
-        z-index: 1;
-    }
-
-    /*
-#videoBG {
-        position: absolute;
-    z-index: -1;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-*/
-}
 
 #sektion1 div {
     text-align: center;
@@ -76,7 +55,8 @@ p {
 
 .overlaytekst p {
     font-size: 1.5rem;
-    color: #FDD882;
+    color: #E3C6B8;
+    /*color: #FDD882;*/
 }
 
 .overlaytekst a {
@@ -186,6 +166,26 @@ article a {
 */
 
 /*media*/
+@media (min-width: 700px) {
+
+    .overlaytekst {
+        position: absolute;
+        top: 60%;
+        right: 19%;
+        z-index: 1;
+    }
+
+    /*
+#videoBG {
+        position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+*/
+}
 
 @media (min-width: 1200px) {
 
@@ -252,12 +252,12 @@ article a {
 
 /* Overlay af H1 til Macbook 16'' */
 
-@media (min-width:1920px) {
+@media (min-width:1700px) {
 
     .overlaytekst {
         position: absolute;
-        top: 50%;
-        right: 30%;
+        top: 60%;
+        right: 14%;
         z-index: 1;
 
     }
