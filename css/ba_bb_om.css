@@ -147,7 +147,7 @@ button {
     }
 
     #om_os .section_wrapper p {
-        margin-top: 7rem;
+        margin-top: 30%;
     }
 
     #om_os .section_wrapper h2 {
@@ -187,7 +187,7 @@ button {
     }
 
     #blomster_abonnement .section_wrapper p {
-        margin-top: 12rem;
+        margin-top: 55%;
     }
 
     #blomster_abonnement .section_wrapper h2 {
@@ -212,7 +212,7 @@ button {
     }
 
     #bestil_blomster .section_wrapper p {
-        margin-top: 12rem;
+        margin-top: 60%;
     }
 
     #bestil_blomster .section_wrapper h2 {
@@ -223,6 +223,10 @@ button {
 
     #bestil_blomster h2 {
         text-align: left;
+    }
+
+    #bestil_blomster img {
+        height: 100%;
     }
 
     /*Tak for din bestilling */
