@@ -57,7 +57,7 @@ span {
 
 button {
     margin-top: 3rem;
-    margin-left: 6rem;
+    margin-left: 5vw;
     border: 0;
     border-radius: 4px;
     padding: .75rem 2rem;
@@ -119,21 +119,6 @@ button {
 
 @media (min-width:1080px) {
 
-    h2 {
-        text-align: left;
-    }
-
-    /*Burgermenu*/
-
-    #menuknap {
-        display: none;
-    }
-
-    #menu.hidden {
-        transform: translateX(0);
-        opacity: 1;
-
-    }
 
     /* Om os section 1 */
 
@@ -154,11 +139,6 @@ button {
 
     }
 
-    #om_os img {
-
-        width: 700px;
-        height: 500px;
-    }
 
     /* Om os section 2 */
 
@@ -186,9 +166,7 @@ button {
 
         display: grid;
         grid-template-columns: 2fr 1fr;
-
-
-
+        gap: 4vw;
     }
 
     #blomster_abonnement .section_wrapper p {
@@ -201,9 +179,8 @@ button {
         margin-top: 1rem;
     }
 
-    #blomster_abonnement img {
-        width: 600px;
-        height: 1050px;
+    #blomster_abonnement h2 {
+        text-align: left;
     }
 
     /* Bestil Blomster */
@@ -212,6 +189,7 @@ button {
 
         display: grid;
         grid-template-columns: 2fr 1fr;
+        gap: 4vw;
 
 
     }
@@ -226,11 +204,9 @@ button {
         margin-top: 1rem;
     }
 
-    #bestil_blomster img {
-        width: 600px;
-        height: 1050px;
+    #bestil_blomster h2 {
+        text-align: left;
     }
-
 
     /*Tak for din bestilling */
 
