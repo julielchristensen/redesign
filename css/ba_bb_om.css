@@ -57,7 +57,7 @@ span {
 
 button {
     margin-top: 3rem;
-    margin-left: 5vw;
+    margin-left: 25vw;
     border: 0;
     border-radius: 4px;
     padding: .75rem 2rem;
@@ -119,6 +119,21 @@ button {
 /* Media */
 
 @media (min-width:1080px) {
+
+    /* Knap */
+    button {
+        margin-top: 3rem;
+        margin-left: 5vw;
+        border: 0;
+        border-radius: 4px;
+        padding: .75rem 2rem;
+        /*background-color: #FDD882;*/
+        background-color: #E3C6B8;
+        font-family: 'Playfair Display', serif;
+        font-size: 16px;
+        cursor: pointer;
+
+    }
 
 
     /* Om os section 1 */
