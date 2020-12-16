@@ -1,3 +1,4 @@
+/*Main*/
 * {
     box-sizing: border-box;
 }
@@ -22,13 +23,14 @@ video {
     width: 100%;
 }
 
-/*Main*/
+/*Skrift*/
 
 h1 {
     text-align: center;
     font-family: 'Playfair Display';
     font-size: 6rem;
     color: #D7D7D9;
+    margin: auto 0;
 }
 
 h2 {
@@ -53,13 +55,15 @@ p {
     text-align: center;
 }
 
-.overlaytekst p {
-    font-size: 1.5rem;
+/* Overlay tekst */
+
+.overlaytekst_1 p {
+    font-size: 1rem;
     color: #E3C6B8;
     /*color: #FDD882;*/
 }
 
-.overlaytekst a {
+.overlaytekst_1 a {
     background-color: #D7D7D9;
     font-family: 'Montserrat';
     font-size: 1rem;
@@ -70,11 +74,9 @@ p {
     border-radius: 5px;
 }
 
-.overlaytekst a {
+.overlaytekst_1 a {
     text-decoration: none;
     color: black;
-}
-
 }
 
 /*sektion 2*/
@@ -95,9 +97,6 @@ p {
 
 /*sektion 3*/
 
-/*@media (min-width: 1200px) {*/
-
-
 #sektion3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -114,7 +113,7 @@ p {
     text-align: center;
 }
 
-
+/* Knapper */
 article {
     position: absolute;
     top: 45%;
@@ -165,80 +164,43 @@ article a {
 }
 */
 
-/*media*/
-@media (min-width: 700px) {
+/*Media*/
 
-    .overlaytekst {
-        position: absolute;
-        top: 60%;
-        right: 19%;
-        z-index: 1;
-    }
-
-    /*
-#videoBG {
-        position: absolute;
-    z-index: -1;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-*/
-}
-
-@media (min-width: 1200px) {
-
-    #videoBG {
-        width: 100%;
-        height: auto;
-    }
-}
-
-@media (max-width: 1200px) {
-    #videoBG {
-        width: auto;
-        height: 100%;
-    }
-}
-
-@media (max-width: 600px) {
+/* Mobil*/
+@media (min-width: 300px) {
     #videoBG {
         width: 100%;
         z-index: -1;
-        /*        display: none;*/
     }
 
-    /*
-    #sektion1 {
-        background-image: url(../forsideposter.jpg);
-        background-size: cover;
-        height: 100vw;
-    }
-*/
 
     #sektion1 h1 {
         font-size: 2rem;
     }
 
-    .overlaytekst {
+    .overlaytekst_1 {
         position: absolute;
-        top: 29%;
+        top: 28%;
         right: 20%
     }
 
-    .overlaytekst a {
+    /*Overlay computer 13''*/
+    .overlaytekst_2 {
+        display: none;
+    }
+
+    /*Overlay computer 15+''*/
+    .overlaytekst_3 {
+        display: none;
+    }
+
+    .overlaytekst_1 a {
         font-size: 0.8rem;
     }
 
     #sektion1 {
         padding-top: 30px;
     }
-
-    #sektion1 p {
-        font-size: 1rem;
-    }
-
 
     #sektion2 h2 {
         font-size: 1.5rem;
@@ -249,15 +211,128 @@ article a {
     }
 }
 
+/* Tablet */
+@media (min-width: 600px) {
+
+    #sektion1 h1 {
+        font-size: 3rem;
+    }
+
+    .overlaytekst_1 {
+        position: absolute;
+        top: 53%;
+        right: 20%
+    }
+
+    /* Overlay computer 13''*/
+    .overlaytekst_2 {
+        display: none;
+    }
+
+    /*Overlay computer 15+''*/
+    .overlaytekst_3 {
+        display: none;
+    }
+
+    .overlaytekst_1 a {
+        font-size: 0.8rem;
+    }
+
+}
+
+/* Computer 13''*/
+@media (min-width: 1200px) {
+
+    #videoBG {
+        width: 100%;
+        height: auto;
+    }
+
+    #sektion1 h1 {
+        font-size: 6rem;
+        padding: 0;
+    }
+
+    .overlaytekst_2 {
+        display: block;
+        position: absolute;
+        top: 60%;
+        right: 19%;
+        z-index: 1;
+    }
+
+    .overlaytekst_2 p {
+        font-size: 2rem;
+        color: #E3C6B8;
+    }
+
+    .overlaytekst_2 a {
+        background-color: #D7D7D9;
+        font-family: 'Montserrat';
+        font-size: 1.2rem;
+        opacity: 60%;
+        padding: 15px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .overlaytekst_2 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    /* Overlay tekst i mobil */
+    .overlaytekst_1 {
+        display: none;
+    }
+
+    /* Overlay tekst større end computer 13''*/
+    .overlaytekst_3 {
+        display: none;
+    }
+}
 
 /* Overlay af H1 til Macbook 16'' */
 
 @media (min-width:1700px) {
 
-    .overlaytekst {
+    .overlaytekst_3 {
+        display: block;
         position: absolute;
-        top: 60%;
-        right: 14%;
+        top: 75%;
+        right: 24%;
         z-index: 1;
 
     }
+
+    .overlaytekst_3 p {
+        font-size: 2rem;
+        color: #E3C6B8;
+        /*color: #FDD882;*/
+    }
+
+    .overlaytekst_3 a {
+        background-color: #D7D7D9;
+        font-family: 'Montserrat';
+        font-size: 1.2rem;
+        opacity: 60%;
+        padding: 15px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .overlaytekst_3 a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .overlaytekst_1 {
+        display: none;
+    }
+
+    .overlaytekst_2 {
+        display: none;
+    }
+}
