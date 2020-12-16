@@ -119,6 +119,10 @@ button {
 
 @media (min-width:1080px) {
 
+    h2 {
+        text-align: left;
+    }
+
     /*Burgermenu*/
 
     #menuknap {
