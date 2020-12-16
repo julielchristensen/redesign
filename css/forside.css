@@ -26,10 +26,23 @@ video {
 
 h1 {
     text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 6rem;
 }
 
 h2 {
+    color: #FDD882;
+    font-family: 'Playfair Display';
     text-align: center;
+}
+
+h4 {
+    font-family: 'Playfair Display';
+}
+
+p {
+    font-family: 'Montserrat';
+    font-size: 0.8rem;
 }
 
 
