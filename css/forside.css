@@ -218,22 +218,30 @@ article a {
 */
 
     #sektion1 h1 {
-        display: none;
+        font-size: 2rem;
     }
 
     .overlaytekst {
         position: absolute;
-        top: 80%;
-        right: 35%
+        top: 29%;
+        right: 20%
+    }
+
+    .overlaytekst a {
+        font-size: 0.8rem;
+    }
+
+    #sektion1 {
+        padding-top: 30px;
     }
 
     #sektion1 p {
-        display: none;
+        font-size: 1rem;
     }
 
 
     #sektion2 h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     #sektion3 article {
