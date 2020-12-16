@@ -25,27 +25,10 @@ video {
 /*Main*/
 
 
-h1 {
-    text-align: center;
-    font-family: 'Playfair Display';
-    font-size: 6rem;
-    color: #D7D7D9;
-}
-
 h2 {
-    color: #FDD882;
-    font-family: 'Playfair Display';
     text-align: center;
 }
 
-h4 {
-    font-family: 'Playfair Display';
-}
-
-p {
-    font-family: 'Montserrat';
-    font-size: 0.8rem;
-}
 
 /* sektion 1*/
 
@@ -76,7 +59,8 @@ p {
 
 .overlaytekst p {
     font-size: 1.5rem;
-    color: #FDD882;
+    color: #E3C6B8;
+    /*color: #FDD882;*/
 }
 
 .overlaytekst a {
