@@ -108,14 +108,6 @@ h2 {
 
 @media (min-width:1080px) {
 
-    #first_section .section_wrapper p {
-        text-align: center;
-        color: #000000;
-        margin-left: 2rem;
-        margin-right: 2rem;
-        padding-bottom: 3rem;
-    }
-
     #second_section .section_wrapper {
         text-align: center;
         display: grid;
