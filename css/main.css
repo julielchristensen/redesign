@@ -256,6 +256,10 @@ forside.html #sektion1 {
 
 @media (min-width:1080px) {
 
+    header {
+        padding-bottom: 1vh;
+    }
+
     h2 {
         font-family: 'Playfair Display', serif;
         font-size: 6vh;
