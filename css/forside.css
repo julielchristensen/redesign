@@ -114,12 +114,6 @@ p {
 }
 
 /* Knapper */
-article {
-    position: absolute;
-    top: 45%;
-    right: 35%;
-    z-index: 1;
-}
 
 article p {
     font-size: 1.5rem;
@@ -319,6 +313,13 @@ article a {
     .overlaytekst_3 {
         display: none;
     }
+
+    #sektion3 article {
+        position: absolute;
+        top: 45%;
+        right: 35%;
+        z-index: 1;
+    }
 }
 
 /* Overlay af H1 til Macbook 16'' */
@@ -363,4 +364,5 @@ article a {
     .overlaytekst_2 {
         display: none;
     }
+
 }
