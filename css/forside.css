@@ -180,7 +180,7 @@ article a {
 
     .overlaytekst_1 {
         position: absolute;
-        top: 28%;
+        top: 30%;
         right: 20%
     }
 
@@ -222,6 +222,34 @@ article a {
         position: absolute;
         top: 53%;
         right: 20%
+    }
+
+    /* Overlay computer 13''*/
+    .overlaytekst_2 {
+        display: none;
+    }
+
+    /*Overlay computer 15+''*/
+    .overlaytekst_3 {
+        display: none;
+    }
+
+    .overlaytekst_1 a {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media (min-width: 800px) {
+
+    #sektion1 h1 {
+        font-size: 4rem;
+    }
+
+    .overlaytekst_1 {
+        position: absolute;
+        top: 60%;
+        right: 15%
     }
 
     /* Overlay computer 13''*/
