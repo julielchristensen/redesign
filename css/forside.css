@@ -28,6 +28,7 @@ h1 {
     text-align: center;
     font-family: 'Playfair Display';
     font-size: 6rem;
+    color: #D7D7D9;
 }
 
 h2 {
@@ -47,27 +48,6 @@ p {
 
 
 /* sektion 1*/
-
-@media (min-width: 700px) {
-
-    .overlaytekst {
-        position: absolute;
-        top: 60%;
-        right: 24%;
-        z-index: 1;
-    }
-
-    /*
-#videoBG {
-        position: absolute;
-    z-index: -1;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-*/
-}
 
 #sektion1 div {
     text-align: center;
@@ -186,6 +166,26 @@ article a {
 */
 
 /*media*/
+@media (min-width: 700px) {
+
+    .overlaytekst {
+        position: absolute;
+        top: 60%;
+        right: 19%;
+        z-index: 1;
+    }
+
+    /*
+#videoBG {
+        position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+*/
+}
 
 @media (min-width: 1200px) {
 
@@ -256,8 +256,8 @@ article a {
 
     .overlaytekst {
         position: absolute;
-        top: 50%;
-        right: 30%;
+        top: 60%;
+        right: 14%;
         z-index: 1;
 
     }
