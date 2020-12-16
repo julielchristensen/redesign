@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Begravelse</title>
+    <title>Begravelse - Esperance Blomster</title>
     <link rel="stylesheet" href="css/produktside.style.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,20 +20,23 @@
 
 <body>
     <header>
-
         <div id="logo">
-            <a href="forside.html"><img src="logo.svg" alt="logo"></a>
+            <h1>Esperance Blomster</h1>
+            <a href="forside.html"><img src="logo.svg" alt="logo" class="logodesktop"></a>
+            <a href="forside.html"><img src="logo.svg" alt="logo" class="logomobil"></a>
         </div>
-
         <nav>
-            <div id="menuknap">☰</div>
-            <ul id="menu" class="hidden">
-                <li><a href="forside.html"><b>Forside</b></a></li>
-                <li><a href="produkter.html"><b>Produkter</b></a></li>
-                <li><a href="bestil_blomster.html"><b>Bestil Blomster</b></a></li>
-                <li><a href="blomster_abonnement.html"><b>Blomster Abonnement</b></a></li>
-                <li><a href="om_os.html"><b>Om os</b></a></li>
-                <p class="pil"><a class="pil" href="produkter.html">&#8592;</a></p>
+            <div id="menuknap" onclick="burgerMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <ul id="menu" class="hidden" onclick="zIndex()">
+                <li><a href="forside.html">Forside</a></li>
+                <li><a href="produkter.html">Produkter</a></li>
+                <li><a href="bestil_blomster.html">Bestil Blomster</a></li>
+                <li><a href="blomster_abonnement.html">Blomster Abonnement</a></li>
+                <li><a href="om_os.html">Om os</a></li>
             </ul>
 
         </nav>
@@ -134,4 +137,6 @@
     <script src="js/produktside.script.js"></script>
     <script src="js/script.js"></script>
     <!--<script src="js/login.js"></script>-->
-</body></html>
+</body>
+
+</html>

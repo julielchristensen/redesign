@@ -5,7 +5,7 @@
     <meta name="robots" content="noindex">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Tak for din henvendelse - Esperance Blomster</title>
     <link rel="stylesheet" href="css/ba_bb_om.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -19,12 +19,17 @@
 </head>
 <header>
     <div id="logo">
-        <a href="forside.html"><img src="logo.svg" alt="logo"></a>
+        <h1>Esperance Blomster</h1>
+        <a href="forside.html"><img src="logo.svg" alt="logo" class="logodesktop"></a>
+        <a href="forside.html"><img src="logo.svg" alt="logo" class="logomobil"></a>
     </div>
-
     <nav>
-        <div id="menuknap">☰</div>
-        <ul id="menu" class="hidden">
+        <div id="menuknap" onclick="burgerMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <ul id="menu" class="hidden" onclick="zIndex()">
             <li><a href="forside.html">Forside</a></li>
             <li><a href="produkter.html">Produkter</a></li>
             <li><a href="bestil_blomster.html">Bestil Blomster</a></li>

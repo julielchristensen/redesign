@@ -188,6 +188,7 @@ article a {
 /*media*/
 
 @media (min-width: 1200px) {
+
     #videoBG {
         width: 100%;
         height: auto;

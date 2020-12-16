@@ -16,7 +16,7 @@ select {
 }
 
 input {
-    width: 22rem;
+    width: 100%;
     font-size: 14px;
     padding: 0.5rem;
     border: solid;
@@ -68,6 +68,7 @@ button {
 
 }
 
+/* Cvr sektion */
 #cvr a {
     font-family: 'Montserrat';
     text-decoration: none;
@@ -78,34 +79,49 @@ button {
     color: #FDD882;
 }
 
-
-.dropdown {
-    position: relative;
-    display: inline-block;
+#cvr iframe {
+    width: 100%;
+    height: 30rem;
 }
 
-.dropdown_undersider {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 10vw;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    padding: 12px 16px;
-    z-index: 1;
+#cvr {
+    padding-top: 0;
 }
 
-.dropdown_undersider a:hover {
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
+#om_os {
+    padding-bottom: 0;
 }
 
-.dropdown:hover .dropdown_undersider {
-    display: block;
+/* Tekst placering & stil */
+
+#om_os h2 {
+    text-align: center;
+}
+
+#cvr h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#tak {
+    text-align: center;
+}
+
+#blomster_abonnement h2 {
+    text-align: center;
+}
+
+#bestil_blomster h2 {
+    text-align: center;
 }
 
 /* Media */
 
 @media (min-width:1080px) {
+
+    h2 {
+        text-align: left;
+    }
 
     /*Burgermenu*/
 
@@ -156,6 +172,11 @@ button {
         grid-gap: 5rem;
         text-align: center;
 
+    }
+
+    #cvr iframe {
+        width: 600px;
+        height: 450px;
     }
 
 

@@ -12,14 +12,6 @@ main {
     margin-top: 1rem;
 }
 
-/*
-section {
-    max-width: 1080px;
-
-    margin: 0 auto;
-    padding: 2rem;
-}
-*/
 
 body {
     margin: 0;
@@ -50,7 +42,7 @@ h1 {
 h2 {
     color: #FDD882;
     font-family: 'Playfair Display', serif;
-    font-size: 3rem;
+    font-size: 3vh;
 }
 
 h3 {
@@ -65,6 +57,8 @@ h4 {
 
 nav a {
     font-family: 'Montserrat';
+    text-decoration: none;
+    color: black;
 }
 
 nav a:hover {
@@ -72,53 +66,106 @@ nav a:hover {
 }
 
 /* Navigation */
+nav {
+    position: relative;
+    /*z-index: 1;*/
+    text-align: center;
+}
 
 .hidden {
     opacity: 0;
-    transform: translateX(-100%);
+    transform: translateY(-10px);
 }
 
 header {
     background-color: white;
+    padding-bottom: 7vh;
 }
 
+
+nav ul {
+    position: absolute;
+    z-index: 1;
+    padding-left: 0;
+    background-color: white;
+    width: 100%;
+    height: 35vh;
+    margin-top: 7vh
+}
 
 nav a {
-    text-decoration: none;
-    color: black;
-    font-size: 1rem;
-
-}
-
-#menuknap {
-    display: inline-block;
-    margin-top: 35px;
-    font-size: 2.5rem;
-    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 1rem;
 }
 
 #menu {
-    list-style-type: none;
-    text-decoration: none;
     transition: transform 0.3s;
-    transform-origin: top left;
+    transform-origin: top top;
+}
+
+#menuknap {
+    cursor: pointer;
+    padding-left: 80vw;
+    padding-top: 3rem;
+
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 30px;
+    height: 1px;
+    background-color: #9a9a9a;
+    margin: 10px 0;
+    transition: 0.4s;
 }
 
 #menu li {
-    display: inline-block;
-    font-size: 1rem;
-    margin: 1rem;
+    list-style: none;
+    padding: 2vh;
 
 }
 
-header img {
-    display: block;
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 180px;
-    width: 180px;
+.logodesktop {
+    display: none;
 }
+
+#logo h1 {
+    font-size: 8vw;
+    text-align: left;
+    padding-left: 7vw;
+    padding-top: 20px;
+    color: #FDD882;
+    display: none;
+}
+
+.logomobil {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    margin-top: 1rem;
+    margin-left: 37.8vw;
+
+}
+
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
 
 /* Footer */
 
@@ -137,30 +184,78 @@ header img {
 #footer {
     text-align: center;
     background-color: #FFFFF2;
+    padding-top: 1rem;
 }
 
 
+forside.html #sektion1 {
+    background-image: url(forsideposter.jpg);
+}
+
 /*Media*/
 
-@media (min-width:1080px) {
-
-    /*Burgermenu*/
+@media (min-width:600px) {
+    /*Navigation*/
 
     #menuknap {
         display: none;
     }
 
     #menu.hidden {
-        transform: translateX(0);
         opacity: 1;
 
     }
 
+    #menu li {
+        display: inline-block;
+        margin: 1rem;
+        padding: 0;
+
+    }
+
+    nav ul {
+        position: relative;
+        padding-left: 0;
+        background: none;
+        height: 2rem;
+        width: 100%;
+        margin: 0;
+    }
+
     nav {
+        position: relative;
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
 
+    }
+
+    .logodesktop {
+        display: block;
+        margin-top: 25px;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        height: 180px;
+        width: 180px;
+    }
+
+    .logomobil {
+        display: none;
+    }
+
+
+    #logo h1 {
+        display: none;
+    }
+}
+
+@media (min-width:1080px) {
+
+    h2 {
+        color: #FDD882;
+        font-family: 'Playfair Display', serif;
+        font-size: 3rem;
     }
 
     /* footer */
@@ -189,8 +284,4 @@ header img {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-}
-
-forside.html #sektion1 {
-    background-image: url(forsideposter.jpg);
 }
