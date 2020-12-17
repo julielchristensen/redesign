@@ -19,8 +19,12 @@ main {
     /*color: #FDD882;*/
 }
 
-section {
+section h2 {
     text-align: center;
+}
+
+.underoverskrift {
+    text-align: center
 }
 
 #first_section {
